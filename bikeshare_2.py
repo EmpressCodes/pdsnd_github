@@ -44,16 +44,12 @@ def get_city():
         print("-------Restarting the program-------- \n\n")
         main()
     week_day=user_input;
-
-
     print('-'*40)
     return city,month,week_day
-
 
 def load_data(city,month,week_day):
     """
     Loads data for the specified city,month and week_day
-
     """
     file_load=CITY_DATA[city]
     df=pd.read_csv(file_load)
@@ -70,10 +66,7 @@ def load_data(city,month,week_day):
 
     if week_day != 'all':
          df = df[df['day_of_week'] == week_day.title()]
-
-
     return df
-
 
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
@@ -82,7 +75,7 @@ def time_stats(df):
     start_time = time.time()
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
-    # display the most common month
+    # display the most common month here
     df['month'] = df['Start Time'].dt.month_name()
     common_month = df['month'].mode()[0]
     print("\n The most common_month is:",common_month )
