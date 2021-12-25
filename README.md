@@ -20,5 +20,5 @@ These are the sources of answers to some of the challenges I met while working o
 1. https://www.geeksforgeeks.org/find-the-most-frequent-value-in-a-numpy-array/
 2. https://thispointer.com/count-occurrences-of-a-value-in-numpy-array-in-python/
 3. https://stackoverflow.com/questions/50848454/pulling-most-frequent-combination-from-csv-columns
-4. https://www.geeksforgeeks.org/python-pandas-dataframe-nlargest/
-5. https://www.earthdatascience.org/courses/intro-to-earth-data-science/scientific-data-structures-python/pandas-dataframes/indexing-filtering-data-pandas-dataframes/
+4. https://www.earthdatascience.org/courses/intro-to-earth-data-science/scientific-data-structures-python/pandas-dataframes/indexing-filtering-data-pandas-dataframes/
+5. Udacity classroom chat

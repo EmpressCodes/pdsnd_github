@@ -30,7 +30,7 @@ def get_city():
     user_input=input("Enter the specific month you'd like to filter by or type '\ALL' to view all months:")
     user_input.lower() #ensures case insensitivity
     while (user_input not in ('all','january','february', 'march', 'april', 'may','june')):
-        print("Invalid input or incorrect spelling. Please check your input.")
+        print("Invalid input and incorrect spelling. Please check your input.")
         print("-------Restarting the program-------- \n\n")
         main()
     month=user_input;
