@@ -15,6 +15,8 @@ Python file:
 bikeshare_2.py
 
 ### Credits
+These are the sources of answers to some of the challenges I met while working on the project
+
 1. https://www.geeksforgeeks.org/find-the-most-frequent-value-in-a-numpy-array/
 2. https://thispointer.com/count-occurrences-of-a-value-in-numpy-array-in-python/
 3. https://stackoverflow.com/questions/50848454/pulling-most-frequent-combination-from-csv-columns
