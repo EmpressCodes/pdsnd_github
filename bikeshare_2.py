@@ -75,7 +75,7 @@ def time_stats(df):
     start_time = time.time()
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
-    # display the most common month
+    # display the most common month here
     df['month'] = df['Start Time'].dt.month_name()
     common_month = df['month'].mode()[0]
     print("\n The most common_month is:",common_month )
