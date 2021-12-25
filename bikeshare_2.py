@@ -19,7 +19,7 @@ def get_city():
     print('Hello! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     user_input=input("Enter the city you'd like to view:")
-    user_input.lower() #ensure case insensitivity
+    user_input.lower() #ensures case insensitivity
     while (user_input not in ('chicago','new york city','washington')):
         print("Invalid input or incorrect spelling. Please check if your input is either \'chicago', \'new york city' or \'washington' ")
         print("-------Restarting the program-------- \n\n")
@@ -28,7 +28,7 @@ def get_city():
 
     # get user input for month (all, january, february, ... , june)
     user_input=input("Enter the specific month you'd like to filter by or type '\ALL' to view all months:")
-    user_input.lower() #ensure case insensitivity
+    user_input.lower() #ensures case insensitivity
     while (user_input not in ('all','january','february', 'march', 'april', 'may','june')):
         print("Invalid input or incorrect spelling. Please check your input.")
         print("-------Restarting the program-------- \n\n")
@@ -38,7 +38,7 @@ def get_city():
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     user_input=input("Enter the specific day you'd like to filter by or type '\ALL' to view all days:")
-    user_input.lower() #ensure case insensitivity
+    user_input.lower() #ensures case insensitivity
     while (user_input not in ('all','monday','tuesday','wednesday','thursday','friday','saturday','sunday')):
         print("Invalid input or incorrect spelling. Please check if your input.")
         print("-------Restarting the program-------- \n\n")
